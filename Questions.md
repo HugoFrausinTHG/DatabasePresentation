@@ -26,9 +26,9 @@ intermediary tables do not have to be referenced when doing searches. Thus, redu
 
 
 #### If applicable explain its position within the CAP theorem, including the reasoning.
-- (Neo4J data preview): https://console-preview.neo4j.io/tools/query
 #### Highlight key use cases where this database excels.
 
+- (Neo4J data preview): https://console-preview.neo4j.io/tools/query
 
 
 #### Discuss the licensing model and its implications for usage.
