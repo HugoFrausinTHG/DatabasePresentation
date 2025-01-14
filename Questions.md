@@ -41,6 +41,18 @@ Unlike nodes, before a relation can be stablish, it needs to first find the node
 
 > **Read**
 
+As seen above, nodes can be searched by using the MATCH keyword. 
+
+    `MATCH (n:Accelerator { name: "David" })`
+
+Here, Neo4J looks through all of the nodes of type Person and finds the ones whose name's matches to David. Just like with nodes,
+MATCH can be used to find relations between nodes:
+    
+    `MATCH (Accelerator1:Accelerator { name: "David" })-[:KNOWS]-(Accelerator2:Accelerator)`
+
+  
+
+
 > **Update**
 
 > **Delete**
