@@ -1,15 +1,3 @@
-#### Provide background information on the database system.
-
-- (summary video): https://www.youtube.com/watch?v=urO5FyP9PoI&t=92s
-
-- (quick notes): https://www.geeksforgeeks.org/neo4j-introduction/
-
-It is a NoSQL system, where data is directly stored natively as a graph. This means that each data is stored with direct reference to
-
-other data nodes in the data base. This speeds up look at time in the data base as relations between data are stored with the data
-
-and they do not have to be calculated or looked up -- thus making these data bases more scalable.
-
 #### Outline the design principles and architecture of the system.
 
 - (quick notes): https://www.geeksforgeeks.org/neo4j-introduction/
